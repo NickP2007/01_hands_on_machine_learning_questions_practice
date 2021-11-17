@@ -17,16 +17,20 @@ Book Answer: Machine Learning is great for
 
 3. What is a labeled training set? (WRONG)
 Personal Answer: A set of data used partly to train the machine learning program, to test the program and to validate the results of that test. 
-Book Answer: A training set that contains the desired solution (a label) for each instance. 
+Book Answer: A training set that contains the desired solution (a label) for each instance. NOTE: supervised learning uses labeled training sets, unsupervised does not.
 
 4. What are the two most common supervised tasks?
 Personal Answer: 
-  - Supervised learning
-  - Reinforcement learning
+  - Classification
+  - Regression
 Book Answer:
 
-5. Can you name four common unsupervised tasks?
-Personal Answer:
+5. Can you name four common unsupervised tasks? (FROM NOTES)
+Personal Answer: 
+  - Clustering
+  - Visualization
+  - Dimensionality Reduction
+  - Anomaly Detection
 Book Answer:
 
 6. What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains?
@@ -34,11 +38,11 @@ Personal Answer: Reinforcement learning
 Book Answer:
 
 7. What type of algorithm would you use to segment your customers into multiple groups?
-Personal Answer: Clustering
+Personal Answer: Clustering - hierarchical clustering
 Book Answer:
 
 8. Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?
-Personal Answer: Unsupervised learning problem
+Personal Answer: Supervised learning problem
 Book Answer:
 
 9. What is an online learning system?
@@ -49,15 +53,15 @@ Book Answer:
 Personal Answer: A system that learns from a large dataset being imported into the process that can be used offline. Uses less machine power and is less demanding but can run into problems and requires updates. 
 Book Answer:
 
-11. What type of learning algorithm relies on a similarity measure to make predictions?
-Personal Answer:
+11. What type of learning algorithm relies on a similarity measure to make predictions? (FROM NOTES)
+Personal Answer: Instance based learning. System learns examples then generallizes to new cases with similarity measure. 
 Book Answer:
 
-12. What is the difference between a model parameter and a learning algorithms hyperparameter?
-Personal Answer:
+12. What is the difference between a model parameter and a learning algorithms hyperparameter? (FROM NOTES)
+Personal Answer:  A hyperparameter is not affected by the learning algorith, it is set prior to training and remains constant. 
 Book Answer:
 
-13. What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
+13. What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions? (FROM NOTES)
 Personal Answer:
 Book Answer:
 
@@ -80,10 +84,10 @@ Book Answer:
 Personal Answer: To verify that the training and test sets functioned as they were supposed to and see whether the program is ready for outside use. 
 Book Answer:
 
-18. What can go wrong if you tune hyperparameters using the test set?
+18. What can go wrong if you tune hyperparameters using the test set? (FROM NOTES)
 Personal Answer:
 Book Answer:
 
-19. What is cross-validation and why would you prefer it to a validation set?
-Personal Answer:
+19. What is cross-validation and why would you prefer it to a validation set? (FROM NOTES)
+Personal Answer: 
 Book Answer:
