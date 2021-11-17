@@ -1,0 +1,20 @@
+End Questions:
+1. How would you define Machine Learning? (CORRECT)
+Personal Answer: Using data to create an algorithm that allows a machine/program to generalize its processes based on previously learned experiences from data. 
+Book Answer: Machine Learning is about building sytems that can learn from data. Learning means getting better at some task, given some performance measure.
+
+2. Can you name four types of problems where it shines? (MOSTLY CORRECT)
+Personal Answer: 
+  - Problems that require constant maintenance or a large list of rules, which can be simplified by a machine learning program
+  - Complex problems that have a variety of solutions
+  - Generating insights on large sets of data
+  - Can't remember
+Book Answer: Machine Learning is great for
+  - Complex problems for which we have no algorithmic solution,
+  - To replace long lists of hand-tuned rules
+  - To build systems that adapt to fluctuating evironments
+  - To help humans learn (eg data mining)
+
+3. What is a labeled training set? (WRONG)
+Personal Answer: A set of data used partly to train the machine learning program, to test the program and to validate the results of that test. 
+Book Answer: A training set that contains the desired solution (a label) for each instance. 
