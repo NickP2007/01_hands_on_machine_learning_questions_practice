@@ -18,3 +18,72 @@ Book Answer: Machine Learning is great for
 3. What is a labeled training set? (WRONG)
 Personal Answer: A set of data used partly to train the machine learning program, to test the program and to validate the results of that test. 
 Book Answer: A training set that contains the desired solution (a label) for each instance. 
+
+4. What are the two most common supervised tasks?
+Personal Answer: 
+  - Supervised learning
+  - Reinforcement learning
+Book Answer:
+
+5. Can you name four common unsupervised tasks?
+Personal Answer:
+Book Answer:
+
+6. What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains?
+Personal Answer: Reinforcement learning
+Book Answer:
+
+7. What type of algorithm would you use to segment your customers into multiple groups?
+Personal Answer: Clustering
+Book Answer:
+
+8. Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?
+Personal Answer: Unsupervised learning problem
+Book Answer:
+
+9. What is an online learning system?
+Personal Answer: A system that connects to an online database to constantly relearn material depending on experiences. Its fast and doesn't require update but takes a lot of data.
+Book Answer:
+
+10. What is out-of-core learning?
+Personal Answer: A system that learns from a large dataset being imported into the process that can be used offline. Uses less machine power and is less demanding but can run into problems and requires updates. 
+Book Answer:
+
+11. What type of learning algorithm relies on a similarity measure to make predictions?
+Personal Answer:
+Book Answer:
+
+12. What is the difference between a model parameter and a learning algorithms hyperparameter?
+Personal Answer:
+Book Answer:
+
+13. What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
+Personal Answer:
+Book Answer:
+
+14. Can you name four of the main challenges in Machine Learning?
+Personal Answer: Overfitting, underfitting, sampling noise, and sampling bias. 
+Book Answer:
+
+15. If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name three possible solutions?
+Personal Answer: The model is overfitting to the training data and does not have room to generalize to new data that might differ from training data. Solutions:
+  - Manipulate the models variables 
+  - Increase training data variability
+  - Use a test set 
+Book Answer:
+
+16. What is a test set and why would you want to use it?
+Personal Answer: Typically 20% of the data with the other 80 being used for training. It is used to verify that the model is not being over or underfit to the training data.
+Book Answer:
+
+17. What is the purpose of a validation set?
+Personal Answer: To verify that the training and test sets functioned as they were supposed to and see whether the program is ready for outside use. 
+Book Answer:
+
+18. What can go wrong if you tune hyperparameters using the test set?
+Personal Answer:
+Book Answer:
+
+19. What is cross-validation and why would you prefer it to a validation set?
+Personal Answer:
+Book Answer:
